@@ -4,7 +4,7 @@ library(readstata13)
 install.packages("np")
 library(np)
 #Raw Data
-data <- read.dta13 ("/Users/jack1021/Documents/2017C/Semi DID/empirical example/Sequeira 2016/Replication_Final/Bribes_Regression.dta")
+data <- read.dta13 ("Bribes_Regression.dta")
 
 Y=data$lba
 D=data$tariff_change_2008
