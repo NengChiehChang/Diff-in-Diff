@@ -1,3 +1,6 @@
+install.packages("gbm")
+library(gbm)
+
 #Data generating #Repeated outcomes
 set.seed(444)
 B=500
