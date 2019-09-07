@@ -1,2 +1,2 @@
-# The file, Algorithm.R, contains the DMLDiD algorithm for repeated cross sections using Lasso and Logit Lasso. 
-# The rest of files are replication files for tables and figures in the paper. 
+# RO_Algorithm.R and RCS_Algorithm.R contain the DMLDiD algorithm for repeated outcomes and repeated cross sections using Lasso, Logit Lasso, and random forests. 
+# The other files are replication files for the tables and the figures in the paper. 
