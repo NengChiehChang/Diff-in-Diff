@@ -53,7 +53,6 @@ Y1=Y01*(1-D)+Y11*D
 
 #####################################################################################
 #Abadie's Estimator
-#ghat = Logti Lasso
 thetahat=c(0)
 for (i in 1:B){
   treatment=ifelse(D[i,]==1,'yes','no')

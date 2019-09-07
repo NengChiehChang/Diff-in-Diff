@@ -1,6 +1,8 @@
 install.packages("gbm")
 library(gbm)
 
+install.packages("randomForest")
+library(randomForest)
 #Data generating #Repeated outcomes
 set.seed(444)
 B=500
@@ -49,7 +51,6 @@ Y1=Y01*(1-D)+Y11*D
 
 #####################################################################################
 #Abadie's Estimator
-#ghat = Logti Lasso
 thetahat=c(0)
 for (i in 1:B){
   treatment=D[i,]
